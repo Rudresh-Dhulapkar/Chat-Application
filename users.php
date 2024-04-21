@@ -42,46 +42,7 @@
                 <button><i class="fas fa-search"></i></button>
             </div>
             <div class="users-list">
-                <a href="#">
-                    <div class="content">
-                        <img src="shunham.jpeg" alt="">
-                        <div class="details">
-                            <span>Shubham</span>
-                            <p>Message</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="omakar.png" alt="">
-                        <div class="details">
-                            <span>Omkar</span>
-                            <p>Message</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="athena.jpg" alt="">
-                        <div class="details">
-                            <span>Athena</span>
-                            <p>Message</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="somesh.png" alt="">
-                        <div class="details">
-                            <span>Somesh</span>
-                            <p>Message</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
+                
             </div>
         </section>
     </div>
