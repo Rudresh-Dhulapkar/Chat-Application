@@ -1,12 +1,12 @@
-const searchBar=document.querySelector(".users .search input"),
-searchBtn=document.querySelector(".users .search button ");
-searchBtn.onclick=()=>{
-    searchBar.classList.toggle("active");
-    searchBar.focus();
-    searchBtn.classList.toggle("active");
+const form=document.querySelector(".login form"),
+continueBtn=form.querySelector(".button input"),
+errorText=form.querySelector(".error-txt");
+
+form.onsubmit=(e)=>{
+    e.preventDefault();
 }
 
-setInterval(()=>{
+continueBtn.onclick= ()=>{
     let xhr=new XMLHttpRequest();
     xhr.open("POST","php/login.php",true);
     xhr.onload=()=>{
@@ -23,4 +23,7 @@ setInterval(()=>{
             }
         }
     }
-}, 500);
+
+    let formData = new FormData(form);
+    xhr.send(formData);
+}
