@@ -21,7 +21,7 @@
                 </div>
                 <div class="feild input">
                     <label>Password</label>
-                    <input type="password" name="pass" placeholder="Enter Password" id="pass">
+                    <input type="password" name="password" placeholder="Enter your password" required>
                     <i class="fas fa-eye" id="togglePass"></i>
                 </div>
                 <div class="feild button">

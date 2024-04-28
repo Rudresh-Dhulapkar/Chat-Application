@@ -251,13 +251,15 @@ body {
 }
 
 .users-list a .status-dot{
-    font-size: 12px;
-    color: #468669;
-} 
+  font-size: 12px;
+  color: #468669;
+  padding-left: 10px;
+}
 
-.users-list a .status-dot.offlie{
+.users-list a .status-dot.offline {
     color: #ccc;
-} 
+}
+
 
 /* chat */
 .chat-area header{
